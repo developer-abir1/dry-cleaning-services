@@ -1,0 +1,64 @@
+
+
+.collecton-section .carousel-controls{
+    position:absolute ;
+    left:50%;
+    bottom: 40px;
+    z-index: 10;
+    
+    transform: translateX(-50%);
+    margin: 0 5px;
+  
+}
+.collecton-section .carousel-indicators{
+  position: relative;
+  margin:0;
+  bottom:-150px;
+}
+
+.collecton-section .carousel-indicators button{
+    height: 50px;
+    width: 50px;
+    margin: 10px 30px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+    transition: all 3s ease;
+}
+
+
+
+.collecton-section .carousel-indicators button.active{
+    border-color: #23c914 ;
+    transform: scale(1.5);
+}
+
+
+.dress{
+    background-image: url(../../../image/dress.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.delivery{
+    background-image: url(../../../image/delevery.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.collaction{
+    background-image: url(../../../image/collaction.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.cleanDress{
+    background-image: url(../../../image/cleaning-dress.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

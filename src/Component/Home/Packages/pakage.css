@@ -1,0 +1,14 @@
+
+
+.offer{
+    border-top: 1px solid rgba(128, 128, 128, 0.781);
+}
+
+
+.pakageData .card{
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px rgba(95, 93, 93, 0.486);
+}
+.packages-section{
+    height: 800px;
+}

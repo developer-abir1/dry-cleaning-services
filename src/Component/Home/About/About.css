@@ -1,0 +1,41 @@
+.contact-me{
+    border-left: 1px solid gray;
+}
+.about-section{
+  background-image: url(../../../image/baa.gif);
+  
+  
+}
+.serviceInfo{
+    border: none;
+    background:rgba(255, 255, 255, 0.466);
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+   
+}
+.serviceInfo .exta-bonus:hover{
+    border-bottom: 2px solid #56ab2f;
+    color:#56ab2f;
+    
+}
+.phoneIcon{
+    border: 1px solid white;
+    background-color: white;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    color: #56ab2f;
+  
+}
+.phoneIcon:hover{
+    background-color: #56ab2f;
+    color: #fff
+}
+.namber:hover{
+    border-bottom:2px solid #56ab2f;
+    cursor:pointer;
+}
