@@ -13,7 +13,7 @@ const CollectedDelivered = () => {
     return (
 
         // Collected And Delivered --- Start ---->
-        <section className="collecton-section  container-fluid">
+        <section className="collecton-section  container">
             <div className="row mt-5 pt-5 p-3">
                 <div className="col-md-6 ">
                     <h5 class="text-small">Get Your Clothes Collected & Delivered </h5>

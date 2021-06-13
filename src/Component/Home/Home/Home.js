@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shear/Footer/Footer';
 import About from '../About/About';
 import AffordalbePrice from '../AffordalbePrice/AffordalbePrice';
 import CollectedDelivered from '../CollectedDelivered/CollectedDelivered';
@@ -16,6 +17,7 @@ const Home = () => {
             <CollectedDelivered></CollectedDelivered>
             <Packages></Packages>
             <AffordalbePrice></AffordalbePrice>
+            <Footer></Footer>
 
         </div>
     );

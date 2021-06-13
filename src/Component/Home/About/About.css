@@ -3,7 +3,8 @@
 }
 .about-section{
   background-image: url(../../../image/baa.gif);
-  
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 .serviceInfo{

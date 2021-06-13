@@ -54,7 +54,8 @@ const ourPakages = [
         name6: '8 Pairs of Socks',
         name7: '2 Towel',
         name8: '2 Set of Sheets',
-        price: '825'
+        price: '825',
+        price2:'$999.00'
 
 
     }
@@ -63,7 +64,7 @@ const ourPakages = [
 const Packages = () => {
 
     return (
-        <section className="packages-section container-fluid mt-5 pt-5 pt-5">
+        <section className="packages-section container mt-5 pt-5 pt-5">
             <h5 class="text-small  text-center mt-5">What We Offer</h5>
             <h1 className="text-brand text-center">Price Packages</h1>
 

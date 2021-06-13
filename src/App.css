@@ -1,9 +1,10 @@
 .text-brand{
-  color:rgb(32, 35, 43);
+  color:rgb(31, 25, 25);
   font-weight: 600;
 }
 .text-small{
-  color: #56ab2f;
+  color: #47b938;
+  font-weight: 500;
 }
 .btn-brand{
   background-image: linear-gradient( #90d867,#0ca125 );
@@ -13,7 +14,14 @@
   color: #fff;
   border-radius: 5px;
 }
-.swiper-container {
-  width: 600px;
-  height: 300px;
+
+
+
+.footer-section{
+  background-image: url(./image/about.jpg);
+}
+
+.footerLi li{ 
+  text-decoration: none;
+  color: gray;
 }

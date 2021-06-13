@@ -12,7 +12,7 @@ const MainHeader = () => {
     
     return (
         <section className=" maniHeader-section ">
-            <div id="carouselExampleInterval" class="carousel slide  bg-carousel   container-fluid" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" class="carousel slide  bg-carousel   container" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <div className="row d-flex align-items-center ">
@@ -30,7 +30,7 @@ const MainHeader = () => {
                                 <button class=" btn-brand mt-3"> Order now</button>
                             </div>
                             <div className="col-md-7 ">
-                                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_n85vndb6/laundry_shop.json" background="transparent" speed="1" loop autoplay></lottie-player>                            </div>
+                                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_n85vndb6/laundry_shop.json" background="transparent" speed="1"  autoplay></lottie-player>                            </div>
                         </div>
                     </div>
 

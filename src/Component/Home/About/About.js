@@ -8,12 +8,13 @@ import { faCheckCircle, faClock, faCreditCard } from '@fortawesome/free-regular-
 const About = () => {
     return (
         <section className="about-section container-fluid ">
-            <div className="row     mt-3 p-3 m-2 py-3 ">
-                <div className="col-md-6 mt-5">
-                    <img src={aboutPh} class="img-fluid" alt="" />
+            <div className=" container">
+            <div className="row  mt-3 ">
+                <div className="col-md-6 d-flex align-items-center">
+                    <img src={aboutPh}  style={{height:"300px"}} alt="" />
                 </div>
-                <div className="col-md-6 mt-5 ">
-                    <h6 class="text-small ">More than 25 Years of Experience</h6>
+                <div className="col-md-6 ">
+                    <h6 class="text-small  mt-3">More than 25 Years of Experience</h6>
                     <h2 className="text-brand">We are Passionate About <br /> Laundry</h2>
                     <p class="text-secondary ">We are professionals in the laundry and dry cleaning business, which means we always stay up to date on the latest technologies, cleaning methods, and solutions for dealing with stains or delicate fabrics. Plus, we maintain the highest standards of business integrity by following local and national regulations and environmental safety rules. We are passionate about the way you think about laundry!</p>
                     <div className="row text-secondary">
@@ -38,7 +39,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="row serviceInfo  mt-3 p-3 m-4 py-3 ">
+            <div className="row serviceInfo  mt-3  py-3 ">
                 <div className="col-md-4 d-flex  ">
                 <div className="mt-4 m-3">
                         <FontAwesomeIcon className="text-small" style={{fontSize:'50px'}} icon={faClock} />
@@ -70,6 +71,7 @@ const About = () => {
                     </div>
                   
                 </div>
+            </div>
             </div>
         </section>
     );

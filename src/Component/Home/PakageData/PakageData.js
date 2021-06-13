@@ -24,7 +24,7 @@ const PakageData = ({ pakage }) => {
                             <li ><FontAwesomeIcon className="text-small"  icon={faCheck}/>  {pakage.name7}</li>
                             <li ><FontAwesomeIcon className="text-small"  icon={faCheck}/>  {pakage.name8}</li>
                         </ul>
-                        <h2 class="text-brand"> ${ pakage.price}.00</h2>
+                        <h2 class="text-brand"> <del><small >{pakage.price2}</small></del> ${ pakage.price}.00</h2>
                     </div>
                     <button class="btn-brand ms-auto">Get Offer</button>
                 </div>
