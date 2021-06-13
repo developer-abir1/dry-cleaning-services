@@ -11,7 +11,7 @@ const About = () => {
             <div className=" container">
             <div className="row  mt-3 ">
                 <div className="col-md-6 d-flex align-items-center">
-                    <img src={aboutPh}  style={{height:"300px"}} alt="" />
+                    <img src={aboutPh}  className="img-fluid" alt="" />
                 </div>
                 <div className="col-md-6 ">
                     <h6 class="text-small  mt-3">More than 25 Years of Experience</h6>

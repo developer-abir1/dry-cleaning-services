@@ -17,6 +17,7 @@ const Home = () => {
             <CollectedDelivered></CollectedDelivered>
             <Packages></Packages>
             <AffordalbePrice></AffordalbePrice>
+            <Testimonial></Testimonial>
             <Footer></Footer>
 
         </div>
